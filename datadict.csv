@@ -1,0 +1,35 @@
+column,type,label,description
+Category,text,CATEGORY,"This general category was developed to place 311 services in a high level category, different than their respective department.
+"
+CASEID,text,CASEID,"The unique case reference number is assigned by the 311 Lagan customer relationship management system.
+"
+OPENEDDATETIME,timestamp,OPENEDDATETIME,"The date and time that a case was submitted.
+"
+SLA_Date,timestamp,SLA_Date,"Every service request type has a due date assigned to the request, based on the request type name.  The SLA Date is the due date and time for the request type based on the service level agreement (SLA).  Each service request type has a timeframe in which it is scheduled to be addressed.
+"
+CLOSEDDATETIME,timestamp,CLOSEDDATETIME,"The date and time that the case/request was was closed.  If blank, the request has not been closed as of the Report Ending Date.
+"
+Late (Yes/No),text,Late (Yes/No),"This indicates whether the case has surpassed its Service Level Agreement due date for the specific service request.
+"
+Dept,text,Dept,"The City department to whom the case is assigned.
+"
+REASONNAME,text,REASONNAME,"The department division within the City deaprtment to whom the case is assigned.
+"
+TYPENAME,text,TYPENAME,"The service request type name for the issue being reported.  Examples include stray animals, potholes, overgrown yards, junk vehicles, traffic signal malfunctions, etc.
+"
+CaseStatus,text,CaseStatus,"The status of a case which is either open or closed.
+"
+SourceID,text,SOURCEID,"The source id is the method of input from which the case was received.  
+"
+OBJECTDESC,text,OBJECTDESC,"The address or intersection for the reported case/service requested.
+"
+Council District,text,Council District,"The Council District number from where the issue was reported.
+"
+XCOORD,text,XCOORD,"The X coordinate of the case reported.
+"
+YCOORD,text,YCOORD,"The Y coordinate of the case reported.
+"
+Report Starting Date,timestamp,Report Starting Date,"The start date range for the case open date for this extract file.
+"
+Report Ending Date,timestamp,Report Ending Date,"The end date range for the case open date for this extract file.
+"
