@@ -6,3 +6,5 @@ The data contains 311 service calls received during the past 365 days as the upl
 - File uploaded to site November 17th
 - Downloaded for exploration on November 17th
 - Contains case data from November 9, 2018 - November 9, 2019
+
+Population Data was retrieved from https://www.ilovesanantonio.org/
